@@ -1,0 +1,48 @@
+body {
+    background-color: ivory;
+    width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    background-color: hotpink;
+    color: white;
+    border-bottom: 6px solid mediumorchid;
+    padding: 6px 12px 0 12px;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 48px;
+    background-color: orchid;
+    color: ivory;
+    margin: 0;
+    padding: 16px;
+}
+nav {
+    background-color: plum;
+    padding: 0 16px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+
+nav a {
+    color: ivory;
+}
+
+nav a:hover {
+    color: lightcoral;
+    font-size: 24px;
+}
+.box {
+    background-color: lightpink;
+    padding: 12px;
+    border-radius: 0 0 16px 16px;
+}
